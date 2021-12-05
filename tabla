@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <style>
+        td, th {border: 1px solid black;}
+        </style>
+        <title>Ejericio de tablas Nº2</title>
+    </head>
+    <body>
+        <table>
+            <caption>Título de la tabla</caption>
+            <tr>
+                <th rowspan="2">Tabla avanzada</th>
+                <th colspan="2">Cabecera Múltiples Columnas</th>
+            </tr>
+
+            <tr>
+                <th> Primera Col. Cab.</th>
+                <th> Segunda Col. Cab.</th>
+            </tr>
+            
+
+            <tr>
+                <th>Fila 1</th>
+                <td>Fila 1 columna 1</td>
+                <td>Fila 1 columna 2</td>
+            </tr>
+            
+            <tr>
+                <th>Fila 2</th>
+                <td> Fila 2 columna 1</td>
+                <td> Fila 2 columna 2</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Pie de tabla.</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
